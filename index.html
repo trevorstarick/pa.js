@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="markdown.js"></script>
+<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<script type="text/javascript">
+$.get('MARKDOWN.md', function(res){
+	$("#marked").html(markdown.toHTML(res));
+});
+</script>
+<link href="stylesheet.css" type="text/css" rel="stylesheet" />
+</head>
+<title>Steambot &middot; Documentation</title>
+<body>
+<div id="marked"></div>
+</body>
+</html>
