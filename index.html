@@ -4,14 +4,20 @@
 <script src="markdown.js"></script>
 <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 <script type="text/javascript">
-$.get('MARKDOWN.md', function(res){
-	$("#marked").html(markdown.toHTML(res));
+$.get('MARKDOWN.md', function(res){  // Markdown is loaded from a file called 'MARKDOWN.md'
+	$("#marked").html(markdown.toHTML(res));  // Mardown is then converted ste as the HTML of <div id="marked">
 });
+/*  If more than one Markdown file is needed to be loaded
+    just copy-paste the code above and replace 'MARKDOWN.md'
+    with whichever file you want and '$("#marked")'
+    to '$("#whatever")'. Be sure to then add another 
+    'div' with the id of 'whatever'.
+*/
 </script>
 <link href="stylesheet.css" type="text/css" rel="stylesheet" />
 </head>
-<title>Steambot &middot; Documentation</title>
+<title>Marked &middot; Documentation</title>
 <body>
-<div id="marked"></div>
+<div id="marked"></div>  <!-- Markdown will be displayed here on the page. -->
 </body>
 </html>
