@@ -8,7 +8,7 @@ Marked is a simple template to let users use and import Markdown (.md) files int
 
 Demo
 ----
-(marked demo)[http://marked.starick.me]
+[marked demo](http://marked.starick.me)
 
 Usage
 ------------
