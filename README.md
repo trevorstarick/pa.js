@@ -1,14 +1,14 @@
-marked
+pa.js
 ======
 
 What is it?
 -----------
 
-Marked is a simple template to let users use and import Markdown (.md) files into web pages. This can simplify changing content on a webpage for non technical users. This project uses [markdown.js](https://github.com/trevorstarick/marked/blob/master/markdown.js) from [evilstreak/markdown-js](https://github.com/evilstreak/markdown-js) to convert the Markdown to HTML. It uses an AJAX request to load a Markdown file into memory and then passes it to [markdown.js](https://github.com/trevorstarick/marked/blob/master/markdown.js). This project is aimed to help simplify web design and content managment without the need for a full CMS.
+Pa.JS is a simple template to let users use and import Markdown (.md) files into web pages. This can simplify changing content on a webpage for non technical users. This project uses [markdown.js](https://github.com/trevorstarick/marked/blob/master/markdown.js) from [evilstreak/markdown-js](https://github.com/evilstreak/markdown-js) to convert the Markdown to HTML. It uses an AJAX request to load a Markdown file into memory and then passes it to [markdown.js](https://github.com/trevorstarick/marked/blob/master/markdown.js). This project is aimed to help simplify web design and content managment without the need for a full CMS.
 
 Demo
 ----
-[marked demo](http://marked.starick.me)
+[marked demo](http://pajs.starick.me)
 
 Usage
 ------------
